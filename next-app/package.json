@@ -1,0 +1,28 @@
+{
+  "name": "next-app",
+  "version": "1.0.0",
+  "description": "A Linktree-style application using Next.js, Tailwind CSS, and PostgreSQL",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "next-auth": "latest",
+    "bcryptjs": "latest",
+    "mongoose": "latest",
+    "swr": "latest",
+    "axios": "latest",
+    "@tailwindcss/postcss7-compat": "latest",
+    "postcss": "latest",
+    "autoprefixer": "latest"
+  },
+  "devDependencies": {
+    "tailwindcss": "latest",
+    "postcss-preset-env": "latest"
+  }
+}
